@@ -1,47 +1,38 @@
+# Crosschain Asset Transfer Solidity Code
+
+This Solidity smart contract facilitates crosschain asset transfers using ZetaChain's Threshold Signature Scheme (TSS) addresses and ZRC-20 tokens. 
+
+## How it Works
+
+- **Asset Transfers**: On a connected chain, a user can transfer an asset to a ZetaChain address, known as a Threshold Signature Scheme (TSS) address.
+
+- **ZRC-20 Tokens**: Assets transferred to a TSS address on ZetaChain are represented as ZRC-20 tokens, an extension of ERC-20.
+
+## Supported Features
+
+This contract currently supports the following omnichain features:
+
+1. **Transfer of Native Gas Assets**: You can transfer native gas assets like ETH, BNB, MATIC, etc. between connected chains.
+
+2. **Transfer of ERC-20 Tokens**: You can transfer ERC-20 tokens between connected chains.
+
+With omnichain smart contracts, you can pair and trade native asset liquidity directly against each other, streamlining asset exchanges.
+
+## Liquidity Pools
+
+Liquidity pools are a fundamental part of ZetaChain's ecosystem, enhancing user experience and supporting various financial applications while reducing fees. ZetaChain's pools can be categorized into three main types: core ZETA pools, additional zEVM pools, and external ZETA pools.
+
 ## Getting Started
 
-Create a project using this example:
+To use this contract:
 
-```bash
-npx thirdweb create --contract --template forge-starter
-```
+1. Deploy the Solidity contract on your chosen chain with ZetaChain integration.
+2. Follow the contract's instructions to transfer assets and perform crosschain operations.
 
-You can start editing the page by modifying `contracts/Contract.sol`.
+## License and Disclaimer
 
-To add functionality to your contracts, you can use the `@thirdweb-dev/contracts` package which provides base contracts and extensions to inherit. The package is already installed with this project. Head to our [Contracts Extensions Docs](https://portal.thirdweb.com/thirdweb-deploy/contract-extensions) to learn more.
+Please review the license before using this code. Use it at your own risk. The authors are not responsible for any loss or damage.
 
-## Building the project
+---
 
-After any changes to the contract, run:
-
-```bash
-npm run build
-# or
-yarn build
-```
-
-to compile your contracts. This will also detect the [Contracts Extensions Docs](https://portal.thirdweb.com/thirdweb-deploy/contract-extensions) detected on your contract.
-
-## Deploying Contracts
-
-When you're ready to deploy your contracts, just run one of the following command to deploy you're contracts:
-
-```bash
-npm run deploy
-# or
-yarn deploy
-```
-
-## Releasing Contracts
-
-If you want to release a version of your contracts publicly, you can use one of the followings command:
-
-```bash
-npm run release
-# or
-yarn release
-```
-
-## Join our Discord!
-
-For any questions, suggestions, join our discord at [https://discord.gg/thirdweb](https://discord.gg/thirdweb).
+For further inquiries or support, please contact [INSERT CONTACT INFORMATION HERE].
